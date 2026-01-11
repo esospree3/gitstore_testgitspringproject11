@@ -16,6 +16,6 @@ public class HelloController {
 
     @GetMapping("/hi/{message}")
     public String hi(@PathVariable String message) {
-        return "hello... " + message + " welcome...";
+        return "hello... " + message + " ...welcome...";
     }
 }
