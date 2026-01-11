@@ -18,4 +18,10 @@ public class HelloController {
     public String hi(@PathVariable String message) {
         return "hello...by some one here ... " + message + " ...welcome...";
     }
+
+    @GetMapping()
+    public String hello111() {
+        return "hello.....111 ";
+    }
+
 }
