@@ -19,9 +19,14 @@ public class HelloController {
         return "hello...by some one here ... " + message + " ...welcome...";
     }
 
-    @GetMapping()
+    @GetMapping("/hello111")
     public String hello111() {
         return "hello.....111 ";
+    }
+
+    @GetMapping("/hello333")
+    public String hello333() {
+        return "hello.....333 ";
     }
 
 }
